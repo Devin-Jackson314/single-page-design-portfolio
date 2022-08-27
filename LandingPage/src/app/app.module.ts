@@ -9,6 +9,7 @@ import { AppsComponent } from './apps/apps.component';
 import { IllustrationsComponent } from './illustrations/illustrations.component';
 import { PhotographyComponent } from './photography/photography.component';
 import { MotionGraphicsComponent } from './motion-graphics/motion-graphics.component';
+import { AmyComponent } from './amy/amy.component';
 
 @NgModule({
   declarations: [
@@ -19,7 +20,8 @@ import { MotionGraphicsComponent } from './motion-graphics/motion-graphics.compo
     AppsComponent,
     IllustrationsComponent,
     PhotographyComponent,
-    MotionGraphicsComponent
+    MotionGraphicsComponent,
+    AmyComponent
   ],
   imports: [
     BrowserModule

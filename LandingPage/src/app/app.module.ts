@@ -10,6 +10,9 @@ import { IllustrationsComponent } from './illustrations/illustrations.component'
 import { PhotographyComponent } from './photography/photography.component';
 import { MotionGraphicsComponent } from './motion-graphics/motion-graphics.component';
 import { AmyComponent } from './amy/amy.component';
+import { MyWorkComponent } from './my-work/my-work.component';
+import { BookComponent } from './book/book.component';
+import { BottomfooterComponent } from './bottomfooter/bottomfooter.component';
 
 @NgModule({
   declarations: [
@@ -21,7 +24,10 @@ import { AmyComponent } from './amy/amy.component';
     IllustrationsComponent,
     PhotographyComponent,
     MotionGraphicsComponent,
-    AmyComponent
+    AmyComponent,
+    MyWorkComponent,
+    BookComponent,
+    BottomfooterComponent
   ],
   imports: [
     BrowserModule

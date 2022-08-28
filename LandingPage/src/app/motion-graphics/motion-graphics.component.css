@@ -1,0 +1,13 @@
+@media (max-width: 375px) {
+    div {
+    position: relative;
+        left: 0%;
+        right: 0%;
+        top: 0%;
+        bottom: 75px;
+         background: #552049;
+        border-radius: 8px;
+        width: 343px;
+        height: 158px;
+    }
+}

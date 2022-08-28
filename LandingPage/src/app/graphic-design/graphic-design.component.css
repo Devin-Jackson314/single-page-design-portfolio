@@ -1,0 +1,38 @@
+
+@media (max-width: 375px){
+div{
+    position: relative;
+        left: 0%;
+        right: 0%;
+        top: 0%;
+        bottom: 0%;
+        background: #755CDE;
+        border-radius: 8px;
+        width: 343px;
+        height: 364px;
+}
+
+p{
+    position: absolute;
+        height: 30px;
+        left: 7%;
+        right: 31.78%;
+        top: calc(50% - 30px/2 + 143px);
+    
+        font-family: 'Plus Jakarta Sans';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 24px;
+        line-height: 30px;
+    
+        color: #FFFFFF;
+}
+
+svg{
+    position: absolute;
+        width: 128px;
+        height: 192px;
+        left: 191px;
+        top: 24px;
+}
+}

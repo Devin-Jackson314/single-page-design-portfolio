@@ -1,0 +1,23 @@
+@media (max-width: 375px) {
+    div {
+        display: block;
+        justify-content: center;
+        width: 343px;
+        height: 210px;
+    }
+
+    h1{
+        position: relative;
+        height: 90px;
+        left: 0%;
+        right: 0%;
+        font-family: 'Plus Jakarta Sans';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 36px;
+        line-height: 45px;
+        text-align: center;
+        color: #030303;
+        border: 1px solid #000000;
+    }
+}

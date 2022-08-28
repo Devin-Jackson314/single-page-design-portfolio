@@ -1,0 +1,11 @@
+div{
+    position: relative;
+        left: 0%;
+        right: 0%;
+       
+        bottom: 150px;
+        background: #F6A560;
+        border-radius: 8px;
+        width: 159px;
+        height: 182px;
+}

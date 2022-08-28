@@ -1,0 +1,16 @@
+
+@media (max-width: 375px){
+div{
+position:relative;
+    left: 185px;
+    right: 0px;
+    top: 30px;
+    
+
+    background: #F39E9E;
+    border-radius: 8px;
+    width: 159px;
+    height: 182px;
+    border-radius: 8px;
+}
+}

@@ -4,4 +4,19 @@ div {
     display: flex;
     justify-content: space-between;
 }
+
+button{
+position:relative;
+    left: 0%;
+    right: 0%;
+    top: 25px;
+    bottom: 0%;
+    background: #030303;
+    border-radius: 28px;
+    color: white;
+    width: 176px;
+    height: 44px;
+
+}
+
 }

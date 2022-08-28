@@ -10,4 +10,30 @@ div{
         width: 159px;
         height: 182px;
 }
+
+p{
+
+position: absolute;
+    height: 30px;
+    left: 14.95%;
+    right: 33.55%;
+    top: calc(50% - 30px/2 + 52px);
+
+    font-family: 'Plus Jakarta Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 30px;
+
+    color: #FFFFFF;
+
+}
+
+svg{
+    position: absolute;
+        width: 64px;
+        height: 64px;
+        left: 70.91px;
+        top: 24px;
+}
 }

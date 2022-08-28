@@ -9,4 +9,28 @@ position: relative;
     width: 343px;
     height: 158px;
 }
+
+svg{
+position: absolute;
+    width: 128px;
+    height: 64px;
+    left: 191.91px;
+    top: 24px;
+}
+
+p{
+position: absolute;
+    height: 30px;
+    left: 7.1%;
+    right: 45.74%;
+    top: calc(50% - 30px/2 + 40px);
+
+    font-family: 'Plus Jakarta Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 30px;
+
+    color: #FFFFFF;
+}
 }

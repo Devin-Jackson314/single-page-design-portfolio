@@ -19,12 +19,14 @@ h2{
 }
 
 button{
-    position: relative;
-    background: #EB7565;
-    border-radius: 28px;
-  justify-content: center;
- color:#FFF7F0;
- left: 105px;
+position: relative;
+background: #EB7565;
+border-radius: 28px;
+justify-content: center;
+color:#FFF7F0;
+left: 85px;
+width: 176px;
+height: 44px;
 } 
 
 p{

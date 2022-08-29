@@ -15,6 +15,7 @@ import { BookComponent } from './book/book.component';
 import { BottomfooterComponent } from './bottomfooter/bottomfooter.component';
 import { AppscardComponent } from './appscard/appscard.component';
 import { UiUxComponent } from './ui-ux/ui-ux.component';
+import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 
 @NgModule({
   declarations: [
@@ -34,7 +35,8 @@ import { UiUxComponent } from './ui-ux/ui-ux.component';
     UiUxComponent
   ],
   imports: [
-    BrowserModule
+    BrowserModule,
+    BrowserAnimationsModule
   ],
   providers: [],
   bootstrap: [AppComponent]

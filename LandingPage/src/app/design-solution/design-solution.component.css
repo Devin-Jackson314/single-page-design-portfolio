@@ -3,7 +3,7 @@
         position: relative;
         width: 752px;
         height: 150px;
-        left: 200px;
+        left: 300px;
         top: 164px;
     }
 
@@ -48,7 +48,7 @@
     h1{
         position: relative;
         height: 90px;
-        left: -255px;
+        left: -220px;
 
        
         font-family: 'Plus Jakarta Sans';
@@ -65,7 +65,7 @@
     p{
     position: relative;
         height: 104px;
-        left: -250px;
+        left: -205px;
         
         top: calc(50% - 104px/2 + 53px);
     

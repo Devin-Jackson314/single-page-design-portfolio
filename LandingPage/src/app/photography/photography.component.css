@@ -34,10 +34,12 @@
             color: #FFFFFF;
     }
 
+
+
         @media (max-width: 375px) {
             div {
                 position: relative;
-                left: 26%;
+                left: 40%;
               
               
              top: 100%;

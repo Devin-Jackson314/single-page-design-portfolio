@@ -36,10 +36,10 @@
 @media (max-width: 375px) {
     div {
         position: relative;
-        left: 100px;
+        left: 150px;
        
 
-        top:120px;
+        top:122px;
         background: #F6A560;
         border-radius: 8px;
         width: 159px;

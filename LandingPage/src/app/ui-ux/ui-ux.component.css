@@ -37,3 +37,39 @@ svg{
         top: 24px;
 }
 }
+
+@media (max-width: 1440px){
+    div{
+        position: absolute;
+            width: 164px;
+            height: 182px;
+            left: 543.09px;
+            top: 394px;
+            background: #F6A560;
+                border-radius: 8px;
+    }
+
+    p{
+        position: absolute;
+            height: 30px;
+            left: 14.49%;
+            right: 35.58%;
+            top: calc(50% - 30px/2 + 52px);
+        
+            font-family: 'Plus Jakarta Sans';
+            font-style: normal;
+            font-weight: 700;
+            font-size: 24px;
+            line-height: 30px;
+        
+            color: #FFFFFF;
+    }
+
+    svg{
+        position: absolute;
+            width: 64px;
+            height: 64px;
+            left: 75.91px;
+            top: 24px;
+    }
+}

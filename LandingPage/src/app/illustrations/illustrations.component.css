@@ -34,3 +34,39 @@ position: absolute;
     color: #FFFFFF;
 }
 }
+
+@media (max-width: 1440px){
+    div{
+        position: absolute;
+            width: 354px;
+            height: 158px;
+            left: 543.09px;
+            top: 600px;
+            background: #EB7565;
+            border-radius: 8px;
+    }
+
+    p{
+        position: absolute;
+            height: 30px;
+            left: 6.88%;
+            right: 47.43%;
+            top: calc(50% - 30px/2 + 40px);
+        
+            font-family: 'Plus Jakarta Sans';
+            font-style: normal;
+            font-weight: 700;
+            font-size: 24px;
+            line-height: 30px;
+        
+            color: #FFFFFF;
+    }
+
+    svg{
+        position: absolute;
+            width: 128px;
+            height: 64px;
+            left: 200.91px;
+            top: 24px;
+    }
+}

@@ -3,13 +3,17 @@
 div {
     display: flex;
     justify-content: space-between;
+    width: 343px;
+        height: 48px;
+        left: 15px;
+        top: 3134px;
 }
 
 button{
 position:relative;
     left: 0%;
     right: 0%;
-    top: 25px;
+    top: 0px;
     bottom: 0%;
     background: #030303;
     border-radius: 28px;
@@ -18,5 +22,7 @@ position:relative;
     height: 44px;
 
 }
+
+
 
 }

@@ -9,15 +9,25 @@
 
     .slidermain{
         position: absolute;
+        width: 2820px;
     }
 
-    .item{
+     .item{
         display: inline-block;
 
-        width: 1410px;
+        width: 375px;
         height: 180px;
       
     
+    } 
+
+    .img{
+    position: absolute;
+        width: 2820px;
+        height: 360px;
+        left: 88px;
+        top: 88px;
+
     }
 
   /* .text{

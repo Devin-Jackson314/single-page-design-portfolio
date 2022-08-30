@@ -1,0 +1,26 @@
+@media (max-width: 375px) {
+    div {
+        position: relative;
+        display: flex;
+        justify-content: space-between;
+        width: 343px;
+            height: 48px;
+            left: 15px;
+         top: 1000px;
+    }
+
+    button {
+        position: relative;
+        left: 0%;
+        right: 0%;
+        top: 25px;
+        bottom: 0%;
+        background: #030303;
+        border-radius: 28px;
+        color: white;
+        width: 176px;
+        height: 44px;
+
+    }
+
+}

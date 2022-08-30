@@ -26,3 +26,16 @@ position:relative;
 
 
 }
+
+@media (max-width: 1440px){
+    div{
+        display: flex;
+        justify-content: center;
+        justify-content:space-between;
+        
+        width: 1111px;
+            height: 64px;
+            left: 165px;
+            top: 34px;
+    }
+}

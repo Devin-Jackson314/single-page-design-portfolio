@@ -36,3 +36,18 @@ svg{
         top: 24px;
 }
 }
+
+
+@media (max-width: 1440px){
+    div{
+        position: absolute;
+            left: 0%;
+            right: 0%;
+            top: 0%;
+            bottom: 0%;
+        background: #755CDE;
+        border-radius: 8px;
+        width: 354px;
+        height:364px;
+}
+}

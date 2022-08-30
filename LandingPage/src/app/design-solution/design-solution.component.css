@@ -43,3 +43,35 @@
 
  
 }
+
+@media (max-width: 1400px){
+   div{
+position: absolute;
+    width: 752px;
+    height: 150px;
+    left: 344px;
+    top: 164px;
+   } 
+
+   h1{
+    font-family: 'Plus Jakarta Sans';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 56px;
+        line-height: 71px;
+        text-align: center;
+        color: #030303;
+   }
+
+   p{
+    font-family: 'Plus Jakarta Sans';
+        font-style: normal;
+        font-weight: 500;
+        font-size: 18px;
+        line-height: 28px;
+        text-align: center;
+        color: #7A746E;
+
+    
+   }
+}

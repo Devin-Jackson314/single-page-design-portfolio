@@ -1,6 +1,7 @@
 
 @media  (max-width: 375px){
 div {
+    position: relative;
     display: flex;
     justify-content: space-between;
     width: 343px;

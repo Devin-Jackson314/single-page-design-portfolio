@@ -1,61 +1,22 @@
 
-@media (max-width: 375px){
-div{
-position:relative;
-    left: 185px;
-    right: 0px;
-    top: 30px;
-    
-
-    background: #F39E9E;
-    border-radius: 8px;
-    width: 159px;
-    height: 182px;
-    border-radius: 8px;
-}
-
-svg{
-    position: absolute;
-        width: 64px;
-        height: 64px;
-        left: 70.87px;
-        top: 24px;
-}
-
-p{
-    position: absolute;
-        height: 30px;
-        left: 14.95%;
-        right: 39.27%;
-        top: calc(50% - 30px/2 + 52px);
-    
-        font-family: 'Plus Jakarta Sans';
-        font-style: normal;
-        font-weight: 700;
-        font-size: 24px;
-        line-height: 30px;
-    
-        color: #FFFFFF;
-}
-}
 
 @media (max-width: 1440px){
     div{
-        position: absolute;
+        position: relative;
             width: 164px;
             height: 182px;
             left: 732.13px;
-            top: 394px;
+            top: -150px;
+
             background: #F39E9E;
             border-radius: 8px;
     }
 
     p{
-        position: absolute;
+        position: relative;
             height: 30px;
-            left: 14.49%;
-            right: 41.13%;
-            top: calc(50% - 30px/2 + 52px);
+            top: 60px;
+            left: 20px;
         
             font-family: 'Plus Jakarta Sans';
             font-style: normal;
@@ -67,10 +28,50 @@ p{
     }
 
     svg{
-        position: absolute;
+        position:relative;
             width: 64px;
             height: 64px;
             left: 75.87px;
             top: 24px;
+    }
+}
+
+@media (max-width: 375px) {
+    div {
+        position: relative;
+        left: 185px;
+        right: 0px;
+        top: 30px;
+
+
+        background: #F39E9E;
+        border-radius: 8px;
+        width: 159px;
+        height: 182px;
+        border-radius: 8px;
+    }
+
+    svg {
+        position: relative;
+        width: 64px;
+        height: 64px;
+        left: 70.87px;
+        top: 24px;
+    }
+
+    p {
+        position: relative;
+        height: 30px;
+        left: 14.95%;
+        right: 39.27%;
+        top: calc(50% - 30px/2 + 52px);
+
+        font-family: 'Plus Jakarta Sans';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 24px;
+        line-height: 30px;
+
+        color: #FFFFFF;
     }
 }

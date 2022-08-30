@@ -38,22 +38,20 @@
 
 @media (max-width: 1440px){
     div{
-        position: absolute;
+        position: relative;
             width: 354px;
-            height: 158px;
+            height: 182px;
             left: 921px;
-            top: 600px;
+            top: -490px;
             background: #552049;
                 border-radius: 8px;
     }
 
     p{
-        position: absolute;
+        position:relative;
             height: 30px;
-            left: 6.78%;
-            right: 29.1%;
-            top: calc(50% - 30px/2 + 40px);
-        
+            top: 60px;
+            left: 30px;
             font-family: 'Plus Jakarta Sans';
             font-style: normal;
             font-weight: 700;
@@ -64,7 +62,7 @@
     }
 
     svg{
-        position: absolute;
+        position: relative;
             width: 128px;
             height: 64px;
             left: 202px;

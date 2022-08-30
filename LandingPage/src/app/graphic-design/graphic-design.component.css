@@ -13,7 +13,7 @@ div{
 }
 
 p{
-    position: absolute;
+    position: relative;
         height: 30px;
         left: 7%;
         right: 31.78%;
@@ -29,7 +29,7 @@ p{
 }
 
 svg{
-    position: absolute;
+    position: relative;
         width: 128px;
         height: 192px;
         left: 191px;
@@ -40,7 +40,7 @@ svg{
 
 @media (max-width: 1440px){
     div{
-        position: absolute;
+        position: relative;
             width: 354px;
             height: 364px;
             left: 165px;
@@ -51,11 +51,9 @@ svg{
     }
 
     p{
-        position: absolute;
+        position: relative;
             height: 30px;
-            left: 6.78%;
-            right: 33.9%;
-            top: calc(50% - 30px/2 + 143px);
+           top: 110px;
     font-family: 'Plus Jakarta Sans';
         font-style: normal;
         font-weight: 700;
@@ -66,7 +64,7 @@ svg{
     }
 
     svg{
-        position: absolute;
+        position: relative;
             width: 128px;
             height: 192px;
             left: 202px;

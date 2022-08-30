@@ -39,3 +39,35 @@ font-family: 'Plus Jakarta Sans';
     color: #7A746E;
 }
 }
+
+
+@media (max-width: 1400px){
+    img{
+        position: relative;
+            width: 445px;
+            height: 445px;
+            left: 165px;
+            top: 894px;
+    } 
+
+    div{
+        position: absolute;
+            width: 1110px;
+            height: 445px;
+            left: 165px;
+            top: 894px;
+    }
+    h2{
+        position: relative;
+        font-family: 'Plus Jakarta Sans';
+            font-style: normal;
+            font-weight: 700;
+            font-size: 40px;
+            line-height: 50px;
+           
+                height: 100px;
+                left: 0%;
+                right: 0%;
+                top: calc(50% - 100px/2 - 103px);
+    }
+}

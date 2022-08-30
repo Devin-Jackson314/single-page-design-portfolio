@@ -46,7 +46,7 @@
 
 @media (max-width: 1400px){
    div{
-position: absolute;
+position: relative;
     width: 752px;
     height: 150px;
     left: 344px;

@@ -37,11 +37,11 @@ position: absolute;
 
 @media (max-width: 1440px){
     div{
-        position: absolute;
+        position: relative;
             width: 354px;
             height: 158px;
             left: 543.09px;
-            top: 600px;
+            top: -130px;
             background: #EB7565;
             border-radius: 8px;
     }

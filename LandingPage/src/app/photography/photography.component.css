@@ -40,18 +40,18 @@
 
 @media (max-width: 1440px){
     div{
-        position: absolute;
+        position: relative;
         width: 354px;
         height: 182px;
         left: 921px;
-        top: 394px;
+        top: -495px;
         background: #61C4B7;
             border-radius: 8px;
         }
     }
 
     svg{
-        position: absolute;
+        position: relative;
             width: 160px;
             height: 64px;
             left: 170px;
@@ -59,11 +59,9 @@
     }
 
     p{
-        position: absolute;
-            height: 30px;
-            left: 6.74%;
-            right: 41.83%;
-            top: calc(50% - 30px/2 + 52px);
+        position: relative;
+            top: 65px;
+            left: 20px;
         
             font-family: 'Plus Jakarta Sans';
             font-style: normal;

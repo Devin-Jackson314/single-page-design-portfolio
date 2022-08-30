@@ -16,6 +16,7 @@ import { BottomfooterComponent } from './bottomfooter/bottomfooter.component';
 import { AppscardComponent } from './appscard/appscard.component';
 import { UiUxComponent } from './ui-ux/ui-ux.component';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
+//import { MatCarouselModule } from '@ngmodule/material-carousel';
 
 @NgModule({
   declarations: [
@@ -36,7 +37,8 @@ import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
   ],
   imports: [
     BrowserModule,
-    BrowserAnimationsModule
+    BrowserAnimationsModule,
+    //MatCarouselModule.forRoot()
   ],
   providers: [],
   bootstrap: [AppComponent]

@@ -1,0 +1,30 @@
+@media (max-width: 375px){
+    .product{
+        padding: 20px 0;
+    }
+
+    .slider-wrap{
+        position: relative;
+    }
+
+    .slidermain{
+        position: absolute;
+    }
+
+    .item{
+        display: inline-block;
+
+        width: 1410px;
+        height: 180px;
+      
+    
+    }
+
+  /* .text{
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: -50;
+    } */
+}
+

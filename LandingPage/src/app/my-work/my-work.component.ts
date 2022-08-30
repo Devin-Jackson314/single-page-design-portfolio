@@ -1,4 +1,5 @@
 import { Component, OnInit } from '@angular/core';
+//import { MatCarousel, MatCarouselComponent } from '@ngmodule/material-carousel';
 
 @Component({
   selector: 'app-my-work',
@@ -11,7 +12,13 @@ export class MyWorkComponent implements OnInit {
 
   ngOnInit(): void {
   }
-
+    //slides = [
+      //{'image': 'https://gsr.dev/material2-carousel/assets/demo.png'}, 
+      //{'image': 'https://gsr.dev/material2-carousel/assets/demo.png'},
+      //{'image': 'https://gsr.dev/material2-carousel/assets/demo.png'}, 
+     // {'image': 'https://gsr.dev/material2-carousel/assets/demo.png'}, 
+     // {'image': 'https://gsr.dev/material2-carousel/assets/demo.png'}
+   // ];
 }
 
 

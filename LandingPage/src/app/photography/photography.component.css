@@ -37,3 +37,39 @@
 
     }
 }
+
+@media (max-width: 1440px){
+    div{
+        position: absolute;
+        width: 354px;
+        height: 182px;
+        left: 921px;
+        top: 394px;
+        background: #61C4B7;
+            border-radius: 8px;
+        }
+    }
+
+    svg{
+        position: absolute;
+            width: 160px;
+            height: 64px;
+            left: 170px;
+            top: 24px;
+    }
+
+    p{
+        position: absolute;
+            height: 30px;
+            left: 6.74%;
+            right: 41.83%;
+            top: calc(50% - 30px/2 + 52px);
+        
+            font-family: 'Plus Jakarta Sans';
+            font-style: normal;
+            font-weight: 700;
+            font-size: 24px;
+            line-height: 30px;
+        
+            color: #FFFFFF;
+    }

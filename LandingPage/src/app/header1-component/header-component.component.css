@@ -32,10 +32,11 @@ position:relative;
         display: flex;
         justify-content: center;
         justify-content:space-between;
+        position: relative;
         
         width: 1111px;
             height: 64px;
-            left: 165px;
+            left: 180px;
             top: 34px;
     }
 }

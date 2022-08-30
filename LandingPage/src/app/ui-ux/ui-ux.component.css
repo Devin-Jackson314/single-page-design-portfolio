@@ -5,7 +5,7 @@
         position:relative;
             width: 164px;
             height: 182px;
-            left: 543.09px;
+            left: 400px;
             top: 30px;
             background: #F6A560;
                 border-radius: 8px;
@@ -36,10 +36,10 @@
 @media (max-width: 375px) {
     div {
         position: relative;
-        left: 0%;
-        right: 0%;
+        left: 100px;
+       
 
-        bottom: 150px;
+        top:120px;
         background: #F6A560;
         border-radius: 8px;
         width: 159px;
@@ -52,7 +52,7 @@
         height: 30px;
         left: 14.95%;
         right: 33.55%;
-        top: calc(50% - 30px/2 + 52px);
+     
 
         font-family: 'Plus Jakarta Sans';
         font-style: normal;

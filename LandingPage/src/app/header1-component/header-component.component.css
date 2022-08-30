@@ -8,10 +8,21 @@
 
         width: 1111px;
         height: 64px;
-        left: 180px;
+        left: 100px;
         top: 34px;
     }
+
+    button{
+        position: relative;
+        left: -10%;
+        background: #030303;
+            border-radius: 28px;
+            color: white;
+    }
 }
+
+
+
 
 @media  (max-width: 375px){
 div {
@@ -27,7 +38,7 @@ div {
 
 button{
 position:relative;
-    left: 170px;
+    left: 110px;
     right: 0%;
     top: 10px;
     bottom: 0%;

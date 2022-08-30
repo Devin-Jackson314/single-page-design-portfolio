@@ -5,7 +5,7 @@
         position: relative;
             width: 164px;
             height: 182px;
-            left: 732.13px;
+            left: 580px;
             top: -150px;
 
             background: #F39E9E;
@@ -39,9 +39,9 @@
 @media (max-width: 375px) {
     div {
         position: relative;
-        left: 185px;
+        left: 280px;
         right: 0px;
-        top: 30px;
+        top: -60px;
 
 
         background: #F39E9E;
@@ -64,7 +64,7 @@
         height: 30px;
         left: 14.95%;
         right: 39.27%;
-        top: calc(50% - 30px/2 + 52px);
+      
 
         font-family: 'Plus Jakarta Sans';
         font-style: normal;

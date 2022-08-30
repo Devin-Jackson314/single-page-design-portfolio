@@ -3,7 +3,7 @@
         position: relative;
         width: 752px;
         height: 150px;
-        left: 344px;
+        left: 240px;
         top: 164px;
     }
 
@@ -16,7 +16,7 @@
         line-height: 71px;
         text-align: center;
         color: #030303;
-        right: 0px;
+        left: 0%;
     }
 
     p {
@@ -37,9 +37,10 @@
 
 @media (max-width: 375px) {
     div {
-        display: block;
+       position: relative;
         width: 343px;
         height: 210px;
+        left: 370px;
        
        
     }

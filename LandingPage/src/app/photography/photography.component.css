@@ -5,7 +5,7 @@
         position: relative;
         width: 354px;
         height: 182px;
-        left: 921px;
+        left: 760px;
         top: -495px;
         background: #61C4B7;
             border-radius: 8px;
@@ -37,10 +37,10 @@
         @media (max-width: 375px) {
             div {
                 position: relative;
-                left: 0%;
-                right: 0%;
-                top: 0%;
-                bottom: 100px;
+                left: 26%;
+              
+              
+             top: 100%;
                 background: #61C4B7;
                 border-radius: 8px;
                 width: 343px;
@@ -48,11 +48,11 @@
             }
     
             p {
-                position: absolute;
+                position:relative;
                 height: 30px;
                 left: 7%;
                 right: 39.93%;
-                top: calc(50% - 30px/2 + 52px);
+                top: 30%;
     
                 font-family: 'Plus Jakarta Sans';
                 font-style: normal;
@@ -60,12 +60,12 @@
                 font-size: 24px;
                 line-height: 30px;
     
-                color: #FFFFFF;
+                color:white;
     
             }
     
             svg {
-                position: absolute;
+                position:relative;
                 width: 160px;
                 height: 64px;
                 left: 159px;

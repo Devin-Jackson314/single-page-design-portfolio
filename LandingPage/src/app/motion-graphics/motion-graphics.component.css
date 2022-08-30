@@ -1,40 +1,4 @@
-@media (max-width: 375px) {
-    div {
-    position: relative;
-        left: 0%;
-        right: 0%;
-        top: 0%;
-        bottom: 75px;
-         background: #552049;
-        border-radius: 8px;
-        width: 343px;
-        height: 182px;
-    }
 
-    svg{
-        position: absolute;
-            width: 128px;
-            height: 64px;
-            left: 191px;
-            top: 24px;
-    }
-
-    p{
-        position: absolute;
-            height: 30px;
-            left: 7%;
-            right: 26.82%;
-            top: calc(50% - 30px/2 + 52px);
-        
-            font-family: 'Plus Jakarta Sans';
-            font-style: normal;
-            font-weight: 700;
-            font-size: 24px;
-            line-height: 30px;
-        
-            color: #FFFFFF;
-    }
-}
 
 @media (max-width: 1440px){
     div{
@@ -67,5 +31,43 @@
             height: 64px;
             left: 202px;
             top: 24px;
+    }
+}
+
+@media (max-width: 375px) {
+    div {
+        position: relative;
+        left: 0%;
+        right: 0%;
+        top: 0%;
+        bottom: 75px;
+        background: #552049;
+        border-radius: 8px;
+        width: 343px;
+        height: 182px;
+    }
+
+    svg {
+        position: relative;
+        width: 128px;
+        height: 64px;
+        left: 191px;
+        top: 24px;
+    }
+
+    p {
+        position: relative;
+        height: 30px;
+        left: 7%;
+        right: 26.82%;
+        top: calc(50% - 30px/2 + 52px);
+
+        font-family: 'Plus Jakarta Sans';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 24px;
+        line-height: 30px;
+
+        color: #FFFFFF;
     }
 }

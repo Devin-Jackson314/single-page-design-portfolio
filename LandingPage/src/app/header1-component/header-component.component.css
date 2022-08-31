@@ -7,17 +7,19 @@
         position: relative;
 
         width: 1111px;
-        height: 64px;
+        height: 56px;
         left: 400px;
         top: 34px;
     }
 
     button{
         position: relative;
-        left: -360px;
+        left: -200px;
         background: #030303;
             border-radius: 28px;
             color: white;
+            width: 228px;
+                height: 56px;
     }
 }
 

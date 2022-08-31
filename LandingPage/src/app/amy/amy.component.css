@@ -4,16 +4,16 @@
         position: relative;
         width: 445px;
         height: 445px;
-        left: 60px;
-        top: 100px;
+        left: 120px;
+        top: -680px;
     }
 
     div {
-        position: absolute;
+        position: relative;
         width: 1110px;
         height: 445px;
         left: 165px;
-        top: 2000px;
+        top: -800px;
     }
 
     h2 {
@@ -29,6 +29,11 @@
         right: 0%;
         top: calc(50% - 100px/2 - 103px);
     }
+
+    p{
+ 
+
+    }
 }
 
 @media (max-width: 375px){
@@ -38,7 +43,7 @@
     position: relative;
         width: 300px;
         height: 300px;
-        left: 160px;
+        left: 170px;
         top: 100px;
 
 } 
@@ -52,8 +57,8 @@ h2{
         line-height: 33px;
         text-align: center;
         color: #030303;
-        left: -410px;
-        top: -30px;
+        left: -400px;
+        top: 1000px;
 }
 
 button{
@@ -65,7 +70,7 @@ color:#FFF7F0;
 left: 55px;
 width: 176px;
 height: 44px;
-top: -10px;
+top: -1850px;
 } 
 
 p{
@@ -78,8 +83,8 @@ font-family: 'Plus Jakarta Sans';
     line-height: 26px;
     text-align: center;
     color: #7A746E;
-    left: -410px;
-        top: -50px;
+    left: -400px;
+        top: 1000px;
 }
 }
 

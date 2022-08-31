@@ -8,17 +8,33 @@ import { Component, OnInit } from '@angular/core';
 })
 export class MyWorkComponent implements OnInit {
 
-  constructor() { }
-
-  ngOnInit(): void {
+  constructor() {
+    const slidesContainer = document.getElementById("slides-container");
+    const slide = document.querySelector(".slide");
+    const prevButton = document.getElementById("slide-arrow-prev");
+    const nextButton = document.getElementById("slide-arrow-next");
+  if (nextButton != null && slide != null && slidesContainer != null)
+  nextButton.addEventListener("click", (event) => {
+  const slideWidth = slide.clientWidth;
+    slidesContainer.scrollLeft += slideWidth;
+  });
+  else if (prevButton != null && slide != null && slidesContainer != null)
+  prevButton.addEventListener("click", () => {
+  const slideWidth = slide.clientWidth;
+  slidesContainer.scrollLeft -= slideWidth;
+}); 
+    
   }
-    //slides = [
-      //{'image': 'https://gsr.dev/material2-carousel/assets/demo.png'}, 
-      //{'image': 'https://gsr.dev/material2-carousel/assets/demo.png'},
-      //{'image': 'https://gsr.dev/material2-carousel/assets/demo.png'}, 
-     // {'image': 'https://gsr.dev/material2-carousel/assets/demo.png'}, 
-     // {'image': 'https://gsr.dev/material2-carousel/assets/demo.png'}
-   // ];
+    ngOnInit():void {
+ 
+   }
+
+  
+    
+     
+
+  
+
 }
 
 

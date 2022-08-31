@@ -15,6 +15,7 @@ body {
     margin: 1rem;
     position: relative;
     overflow: hidden;
+    left: 155px;
 }
 
 .slides-container {
@@ -85,6 +86,11 @@ body {
 .img-responsive{
     width: 270px;
     height: 180px;
+}
+
+h2{
+    position: relative;
+    left: 280px;
 }
 
 }

@@ -9,6 +9,7 @@ import { Component, OnInit } from '@angular/core';
 export class MyWorkComponent implements OnInit {
 
   constructor() {
+
     const slidesContainer = document.getElementById("slides-container");
     const slide = document.querySelector(".slide");
     const prevButton = document.getElementById("slide-arrow-prev");
@@ -23,13 +24,17 @@ export class MyWorkComponent implements OnInit {
   const slideWidth = slide.clientWidth;
   slidesContainer.scrollLeft -= slideWidth;
 }); 
+
+      
+    
     
   }
     ngOnInit():void {
  
-   }
-
+    }
   
+
+
     
      
 

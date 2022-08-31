@@ -8,13 +8,13 @@
 
         width: 1111px;
         height: 64px;
-        left: 280px;
+        left: 100px;
         top: 34px;
     }
 
     button{
         position: relative;
-        left: -300px;
+        left: -360px;
         background: #030303;
             border-radius: 28px;
             color: white;

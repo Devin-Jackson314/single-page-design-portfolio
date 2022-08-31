@@ -4,8 +4,8 @@
         position: relative;
         width: 445px;
         height: 445px;
-        left: 120px;
-        top: -680px;
+        left: 60px;
+        top: -690px;
     }
 
     div {
@@ -25,9 +25,9 @@
         line-height: 50px;
 
         height: 100px;
-        left: 0%;
-        right: 0%;
-        top: calc(50% - 100px/2 - 103px);
+        left: 400px;
+    
+        top: -350px;
     }
 
     p{

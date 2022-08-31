@@ -4,7 +4,7 @@
         position: relative;
         width: 445px;
         height: 445px;
-        left: 60px;
+        left: 260px;
         top: -690px;
     }
 
@@ -25,14 +25,32 @@
         line-height: 50px;
 
         height: 100px;
-        left: 400px;
+        left: 640px;
     
-        top: -350px;
+        top: -250px;
     }
 
     p{
- 
+        position: relative;
+        font-family: 'Plus Jakarta Sans';
+            font-style: normal;
+            font-weight: 500;
+            font-size: 18px;
+            line-height: 28px;
+            height: 84px;
+            color: #7A746E;
+            top: -200px;
+            left: 640px;
 
+    }
+
+    button{
+        position: relative;
+        background: #EB7565;
+            border-radius: 28px;
+            color: white;
+            left: 640px;
+            top: -200px;
     }
 }
 

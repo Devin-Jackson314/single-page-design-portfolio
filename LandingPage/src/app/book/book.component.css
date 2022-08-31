@@ -1,13 +1,67 @@
+@media (max-width: 1400px){
+    div {
+            position: relative;
+            width: 1110px;
+            height: 320px;;
+            left: 300px;
+            top: -1100px;
+            background: #030303;
+            border-radius: 10px;
+        }
+    
+        h2 {
+            position: relative;
+            width: 240px;
+            height: 33px;
+            left: calc(50% - 240px/2 - 0.5px);
+            top: calc(50% - 33px/2 - 111px);
+    
+            font-family: 'Plus Jakarta Sans';
+            font-style: normal;
+            font-weight: 700;
+            font-size: 26px;
+            line-height: 33px;
+            text-align: center;
+            color: #FFF7F0;
+    
+        }
+    
+        p {
+            height: 130px;
+            left: 0%;
+            right: 0%;
+            top: calc(50% - 130px/2 - 5.5px);
+            position: relative;
+            font-family: 'Plus Jakarta Sans';
+            font-style: normal;
+            font-weight: 500;
+            font-size: 16px;
+            color: #FFF7F0;
+            text-align: center;
+        }
+    
+        button {
+            position: relative;
+            width: 176px;
+            height: 44px;
+            left: 100px;
+            top: 80px;
+            background: #EB7565;
+            border-radius: 28px;
+            color: #FFF7F0;
+        }
 
+
+}
 
 @media (max-width: 375px){
 
 div{
-position: absolute;
+position: relative;
     width: 343px;
     height: 352px;
     left: 155px;
-    top: 2550px;
+    top: 0px;
     background: #030303;
         border-radius: 10px;
 }
